@@ -63,7 +63,7 @@ docker run -d -e AUTH_TOKEN=your_token -p 8805:8805 mtxyt/chutes2api:1.5
 2. 随便找一个LLM模型切换到chat聊天界面里
 4. 打开开发者工具(F12)，切换到网络面板
 5. 随便发起一个对话
-6. 在请求中找到 cf_clearance cookie(如果没有多对话几次回复空值就是触发盾了刷新网页过人机验证再请求就有了)
+6. 在请求中找到 cf_clearance cookie(如果没有,多对话几次回复空,就是触发盾了刷新网页过人机验证再请求就有了)
 ![image](https://github.com/user-attachments/assets/9e5423aa-9b4c-4c97-a737-281d3f195884)
 
 如果你配置了 AUTH_TOKEN，完整的认证格式为：`AUTH_TOKEN|||cf_clearance`
