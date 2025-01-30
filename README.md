@@ -25,7 +25,7 @@
 ## 请求路由
  - /v1/models
  - /v1/chat/completions
-如果有配置AUTH_TOKEN请求都要带key
+ - 如果有配置AUTH_TOKEN请求都要带key
 
 
 ## 请求格式
